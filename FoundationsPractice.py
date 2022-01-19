@@ -6,10 +6,10 @@ from math import sqrt
     #print(i)
 
 
-#for i in range (1,11):
-    #while(i<=10):
-        #print(i) #print(i," ", end="")
-        #i+=10
+for i in range (1,11):
+    while(i<=10):
+        print(i) #print(i," ", end="")
+        i+=10
 
 #Task T02: Nested Loops
 
@@ -17,10 +17,10 @@ from math import sqrt
     #for day in ["mon", "tue", "wed", "thur", "fri", "sat", "sun"]:
         #print(week, day)
 
-#for i in reversed(range (1,9)):
-    #for j in range (1,9):
-        #print("(",i,",",j,")","",end="")
-    #print("(",i,",",j,")","")
+for i in reversed(range (1,9)):
+    for j in range (1,9):
+        print("(",i,",",j,")","",end="")
+    print("(",i,",",j,")","")
 
 #Task T03: Calculations With Nested Loops
 
